@@ -2,7 +2,7 @@
 
 > An all-in-one Android personal-assistant app built with Flutter, bundling an LLM chat, on-device ML, OCR-based scanners, an accounting helper, expiry/macro planners, and a scan-to-calendar workflow into a single home-screen grid.
 
-This project is a Flutter migration of the original **Vennis** Android app.
+This project is the repository for the EarEye Android app.
 
 ---
 
