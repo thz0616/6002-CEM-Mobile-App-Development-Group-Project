@@ -1,0 +1,43 @@
+{
+  "model_name": "distilbert-base-uncased",
+  "max_length": 512,
+  "input_tensors": {
+    "input_ids": {
+      "dtype": "int32",
+      "shape": [
+        1,
+        512
+      ]
+    },
+    "attention_mask": {
+      "dtype": "int32",
+      "shape": [
+        1,
+        512
+      ]
+    }
+  },
+  "output_tensors": {
+    "probabilities": {
+      "dtype": "float32",
+      "shape": [
+        1,
+        2
+      ]
+    }
+  },
+  "labels": {
+    "0": "safe",
+    "1": "scam"
+  },
+  "scam_probability_index": 1,
+  "recommended_alert_threshold": 0.75,
+  "preprocessing": {
+    "lowercase": true,
+    "tokenizer": "Bert WordPiece",
+    "cls_token": "[CLS]",
+    "sep_token": "[SEP]",
+    "pad_token": "[PAD]",
+    "unk_token": "[UNK]"
+  }
+}

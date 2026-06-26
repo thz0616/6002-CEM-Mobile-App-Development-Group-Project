@@ -1,0 +1,18 @@
+{
+  "exported_at": "2025-11-07T10:36:58",
+  "sample_rate": 16000,
+  "window_seconds": 0.2,
+  "threshold": 0.3491,
+  "postprocess": {
+    "median_ms": 600,
+    "min_event_ms": 200,
+    "hysteresis_start": 0.9,
+    "hysteresis_keep": 0.4
+  },
+  "labels": [
+    "none",
+    "horn"
+  ],
+  "yamnet_url": "https://tfhub.dev/google/yamnet/1",
+  "quantization": "dynamic"
+}
